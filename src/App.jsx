@@ -1,3 +1,5 @@
+import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
+
 function App(){
 
   const weatherForecasts = [
@@ -43,7 +45,14 @@ function App(){
     <>
     <h1>Local Weather</h1>
     <section>
-      {/* Weather Stuff */}
+      {weatherForecasts.map((forecast) =>(
+        <WeatherForecast 
+        key={forecast.id}
+        {...forecast}
+        />
+
+
+      ))}
     </section>
     </>
   )
