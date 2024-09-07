@@ -40,7 +40,12 @@ function App(){
   
 
   return (
-    <h1>Hello World</h1>
+    <>
+    <h1>Local Weather</h1>
+    <section>
+      {/* Weather Stuff */}
+    </section>
+    </>
   )
 }
 
