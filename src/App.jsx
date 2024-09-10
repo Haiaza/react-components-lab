@@ -1,4 +1,5 @@
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
+import "./components/WeatherForecast/WeatherForecast.css"
 
 function App(){
 

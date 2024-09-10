@@ -9,3 +9,4 @@ const  WeatherForecast = ({ day, img, conditions, time }) => (
 )
 
 export default WeatherForecast
+
